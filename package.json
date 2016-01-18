@@ -1,0 +1,22 @@
+{
+  "name": "webpack-headstart",
+  "version": "1.0.0",
+  "description": "Webpack - Headstart",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willem-vanheemstrasystems/webpack-headstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willem-vanheemstrasystems/webpack-headstart/issues"
+  },
+  "homepage": "https://github.com/willem-vanheemstrasystems/webpack-headstart#readme",
+  "dependencies": {
+    "webpack": "^1.12.11"
+  }
+}
