@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'css-loader',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of C:\Users\vanheemstraw\git\Willem-vanHeemstraSystems\webpack-headstart\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\vanheemstraw\git\Willem-vanHeemstraSystems\webpack-headstart\node_modules\webpack\package.json
+6 verbose readDependencies loading dependencies from C:\Users\vanheemstraw\git\Willem-vanHeemstraSystems\webpack-headstart\package.json
+7 silly cache add args [ 'css-loader', null ]
+8 verbose cache add spec css-loader
+9 silly cache add parsed spec Result {
+9 silly cache add   raw: 'css-loader',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'css-loader',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed css-loader@*
+11 verbose addNamed "*" is a valid semver range for css-loader
+12 silly addNameRange { name: 'css-loader', range: '*', hasData: false }
+13 silly mapToRegistry name css-loader
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+17 verbose addNameRange registry:https://registry.npmjs.org/css-loader not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/css-loader
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 9:50:11 AM
+21 verbose request id 30fd3508a3c9e0eb
+22 http request GET https://registry.npmjs.org/css-loader
+23 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+24 info attempt registry request try #2 at 9:50:21 AM
+25 http request GET https://registry.npmjs.org/css-loader
+26 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+27 info attempt registry request try #3 at 9:51:21 AM
+28 http request GET https://registry.npmjs.org/css-loader
+29 verbose stack Error: tunneling socket could not be established, cause=write EPROTO
+29 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:174:17)
+29 verbose stack     at ClientRequest.g (events.js:260:16)
+29 verbose stack     at emitOne (events.js:77:13)
+29 verbose stack     at ClientRequest.emit (events.js:169:7)
+29 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:259:9)
+29 verbose stack     at emitOne (events.js:77:13)
+29 verbose stack     at TLSSocket.emit (events.js:169:7)
+29 verbose stack     at onwriteError (_stream_writable.js:304:10)
+29 verbose stack     at onwrite (_stream_writable.js:322:5)
+29 verbose stack     at WritableState.onwrite (_stream_writable.js:89:5)
+30 verbose cwd C:\Users\vanheemstraw\git\Willem-vanHeemstraSystems\webpack-headstart
+31 error Windows_NT 6.1.7601
+32 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "css-loader" "--save"
+33 error node v4.2.3
+34 error npm  v2.14.7
+35 error code ECONNRESET
+36 error network tunneling socket could not be established, cause=write EPROTO
+36 error network This is most likely not a problem with npm itself
+36 error network and is related to network connectivity.
+36 error network In most cases you are behind a proxy or have bad network settings.
+36 error network
+36 error network If you are behind a proxy, please make sure that the
+36 error network 'proxy' config is set properly.  See: 'npm help config'
+37 verbose exit [ 1, true ]
